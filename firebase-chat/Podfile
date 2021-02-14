@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'firebase-chat' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for firebase-chat
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'MessageKit'
+
+  target 'firebase-chatTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'firebase-chatUITests' do
+    # Pods for testing
+  end
+
+end
